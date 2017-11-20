@@ -1,0 +1,6 @@
+project(smooth_img)
+set(OpenCV_DIR "/home/melchior/opencv-3.3.0/build")
+set(CMAKE_BUILD_TYPE DeBug)
+find_package(OpenCV REQUIRED)
+add_executable(smooth_img ./Smoothing.cpp)
+target_link_libraries(smooth_img ${OpenCV_LIBS})
