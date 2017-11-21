@@ -118,7 +118,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=morphology
+CMAKE_PROJECT_NAME:STATIC=hitmiss
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -288,6 +288,18 @@ EXECUTABLE_OUTPUT_PATH:PATH=
 
 //Single output directory for building all libraries.
 LIBRARY_OUTPUT_PATH:PATH=
+
+//Value Computed by CMake
+hitmiss_BINARY_DIR:STATIC=/home/mli/opencv3.3.1_imgproc/test/009_morphology/build
+
+//Value Computed by CMake
+hitmiss_SOURCE_DIR:STATIC=/home/mli/opencv3.3.1_imgproc/test/009_morphology
+
+//Value Computed by CMake
+morphology2_BINARY_DIR:STATIC=/home/mli/opencv3.3.1_imgproc/test/009_morphology/build
+
+//Value Computed by CMake
+morphology2_SOURCE_DIR:STATIC=/home/mli/opencv3.3.1_imgproc/test/009_morphology
 
 //Value Computed by CMake
 morphology_BINARY_DIR:STATIC=/home/mli/opencv3.3.1_imgproc/test/009_morphology/build

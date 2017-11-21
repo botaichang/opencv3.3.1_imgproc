@@ -111,32 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named morphology
+# Target rules for targets named hitmiss
 
 # Build rule for target.
-morphology: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 morphology
-.PHONY : morphology
+hitmiss: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hitmiss
+.PHONY : hitmiss
 
 # fast build rule for target.
-morphology/fast:
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/build
-.PHONY : morphology/fast
+hitmiss/fast:
+	$(MAKE) -f CMakeFiles/hitmiss.dir/build.make CMakeFiles/hitmiss.dir/build
+.PHONY : hitmiss/fast
 
 # target to build an object file
-Morphology_1.o:
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/Morphology_1.o
-.PHONY : Morphology_1.o
+HitMiss.o:
+	$(MAKE) -f CMakeFiles/hitmiss.dir/build.make CMakeFiles/hitmiss.dir/HitMiss.o
+.PHONY : HitMiss.o
 
 # target to preprocess a source file
-Morphology_1.i:
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/Morphology_1.i
-.PHONY : Morphology_1.i
+HitMiss.i:
+	$(MAKE) -f CMakeFiles/hitmiss.dir/build.make CMakeFiles/hitmiss.dir/HitMiss.i
+.PHONY : HitMiss.i
 
 # target to generate assembly for a file
-Morphology_1.s:
-	$(MAKE) -f CMakeFiles/morphology.dir/build.make CMakeFiles/morphology.dir/Morphology_1.s
-.PHONY : Morphology_1.s
+HitMiss.s:
+	$(MAKE) -f CMakeFiles/hitmiss.dir/build.make CMakeFiles/hitmiss.dir/HitMiss.s
+.PHONY : HitMiss.s
 
 # Help Target
 help:
@@ -146,10 +146,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... morphology"
-	@echo "... Morphology_1.o"
-	@echo "... Morphology_1.i"
-	@echo "... Morphology_1.s"
+	@echo "... hitmiss"
+	@echo "... HitMiss.o"
+	@echo "... HitMiss.i"
+	@echo "... HitMiss.s"
 .PHONY : help
 
 
