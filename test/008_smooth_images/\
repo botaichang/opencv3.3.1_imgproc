@@ -1,0 +1,2 @@
+project(smooth_image)
+add_executable()

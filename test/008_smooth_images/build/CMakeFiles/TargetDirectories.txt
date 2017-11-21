@@ -1,0 +1,3 @@
+/home/mli/opencv3.3.1_imgproc/test/008_smooth_images/build/CMakeFiles/rebuild_cache.dir
+/home/mli/opencv3.3.1_imgproc/test/008_smooth_images/build/CMakeFiles/edit_cache.dir
+/home/mli/opencv3.3.1_imgproc/test/008_smooth_images/build/CMakeFiles/smooth_image.dir
