@@ -1,0 +1,6 @@
+morphology 
+===============
+1. erode 
+2. dilate
+3. gradient = dilate - erode  先膨胀后腐蚀可找出图像梯度 
+4. hitormiss find pattern in binary image

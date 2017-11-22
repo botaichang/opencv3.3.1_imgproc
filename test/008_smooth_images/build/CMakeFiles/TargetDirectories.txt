@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 /home/melchior/opencv3.3.1_imgproc/test/008_smooth_images/build/CMakeFiles/smooth_img.dir
+=======
+/home/mli/opencv3.3.1_imgproc/test/008_smooth_images/build/CMakeFiles/rebuild_cache.dir
+/home/mli/opencv3.3.1_imgproc/test/008_smooth_images/build/CMakeFiles/edit_cache.dir
+/home/mli/opencv3.3.1_imgproc/test/008_smooth_images/build/CMakeFiles/smooth_image.dir
+>>>>>>> 13b52af206f8058c30f5e8f79db90ee617ec28e7

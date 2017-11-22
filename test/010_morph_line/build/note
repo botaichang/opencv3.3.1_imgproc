@@ -1,0 +1,14 @@
+抽取五线谱中的五线谱的横线和乐符。
+
+如何抽取横线
+1.　图片-> gray image
+2.  gray image -> binary image
+3.  对binary image 进行横向腐蚀 (erode)
+4.  再进行横向膨胀(dilate),腐蚀膨胀后会得到边界明亮的谱线。
+（腐蚀膨胀的kernel的size是长条）
+
+如何抽取乐符
+1.　图片-> gray image
+2.  gray image -> binary image
+3.  对binary image 进行纵向腐蚀 (erode)
+4.  再进行横向膨胀(dilate),腐蚀膨胀后会得到边界明亮的谱线。
