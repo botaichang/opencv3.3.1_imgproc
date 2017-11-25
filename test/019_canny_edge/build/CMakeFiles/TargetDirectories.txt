@@ -1,0 +1,1 @@
+/home/melchior/opencv3.3.1_imgproc/test/019_canny_edge/build/CMakeFiles/project_name.dir
